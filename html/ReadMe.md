@@ -68,12 +68,47 @@
     </html>
     ```
 
-> Semantic Web(의미가 잘 드러나는 웹)
+>Semantic Web(의미가 잘 드러나는 웹)
 
-* `<nav></nav>`이라는 태크를 사용하면 이 태그 안에 있는 것이 네비게이션을 위한 리스트라는것을 웹페이지에 알려줌
+* `<nav></nav>`이라는 태크를 사용하면 이 태그 안에 있는 것이 내비게이션을 위한 리스트라는 것을 웹페이지에 알려줌
 (이 웹사이트를 탐색하기 위한 정보라는 것을 의미)
 
-* `<header></header>`이라는 태그는 이 해당글의 핵심임을 나타내기 위한것<div style="text-aling:left">(`<h1></h1>`으로 사용해도 크게 문제는 없지만, 분명하게 들어나게하기위해서 사용)</div>
+* `<header></header>`이라는 태그는 이 해당 글의 핵심임을 나타내기 위한 것<div style="text-aling:left">(`<h1></h1>`으로 사용해도 크게 문제는 없지만, 분명하게 드러나게 하기 위해서 사용)</div>
 
 
 * `<article></article>` 해당 태그를 사용해 이 문서의 본문이라는 점을 나타내기 위해 사용함
+<br><br/>
+# CSS(디자인을 위한 언어) 기본 문법
+<span style="Color:red">C</span>ascading <span style="Color:red">S</span>tyle <span style="Color:red">S</span>heet: HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된  **문서의 표시 방법을 기술하기 위한 스타일 시트 언어**입니다. CSS는 요소가 화면, 종이, 음성이나 다른 매체 상에 어떻게 렌더링 되어야 하는지 지정합니다.
+[<a href="https://developer.mozilla.org/ko/docs/Web/CSS" target="_self">출처</a>]
+
+* `<style></style>` 태그 사용법
+  ```html
+  <!DOCTYPE html>
+  <html>
+      <head>
+          <meta charset="utf-8">
+          <style>
+            h1{color:red}
+            h2{color:yellow}
+          </style>
+      </head>
+      <body>
+          <h1>CSS</h1>
+          <h2>JavaScript</h2>
+          <h3>HTML</h3>
+      </body>
+  </html>
+  ```
+  해당 코드를 통해 `<style></style>`의 코드 안에 있는 코드로 인해 다음 같은 결과가 나옴
+  
+  `<style></style>`적용 전
+  ![image](css1.PNG)
+
+  `<style></style>`적용 후
+  ![image](css2.PNG)
+ 
+
+  이때 `h1{color:red}`에서 h1은 **선택자(selector)** 으로 누구에게 적용시킬것인가를 나타내기 때문에 선택자라고 함
+  또, {}안에 있는 것은 **서술(description)** 으로 어떤 효과를 선택자에게 적용할 것인지를 나타내고 있는 곳이다.
+

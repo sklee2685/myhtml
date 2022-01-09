@@ -103,10 +103,10 @@
   해당 코드를 통해 `<style></style>`의 코드 안에 있는 코드로 인해 다음 같은 결과가 나옴
   
   `<style></style>`적용 전
-  ![image](css1.PNG)
+  ![image](css/css1.PNG)
 
   `<style></style>`적용 후
-  ![image](css2.PNG)
+  ![image](css/css2.PNG)
  
 
   이때 `h1{color:red}`에서 h1은 **선택자(selector)** 으로 누구에게 적용시킬것인가를 나타내기 때문에 선택자라고 함

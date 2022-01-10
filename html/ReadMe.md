@@ -138,6 +138,7 @@
   </html>
 ```
 ![css3](css/css2.PNG)
+
 다음 사진처럼 어떤 태그에 상위 태그가 또 있어도 효과를 부여할 수 있다.
 <br></br>
 >CSS-박스 모델
@@ -183,6 +184,6 @@
   </html>
 ```
 결과
-![boxmodel](css/css3.png)
+![boxmodel](css/css3.PNG)
 
 위의 코드에서처럼 `li{~}`를 통해 사용할 수도 있지만, `<li id="box">box model</li>`에서처럼 id 값을 따로 지정한 후 `<style>`에서 #id이름을 입력하는 것으로도 사용 가능하다.

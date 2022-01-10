@@ -89,8 +89,14 @@
       <head>
           <meta charset="utf-8">
           <style>
-            h1{color:red}
-            h2{color:yellow}
+            h1,h3{
+              color:red;
+              font-size:10px;
+            }
+            h2{
+              color:yellow;
+              text-decoration:underline;
+            }
           </style>
       </head>
       <body>
@@ -104,9 +110,79 @@
   
   |`<style></style>`적용 전|`<style></style>`적용 후|
   |:---:|:---:|
-  |![image](css/css1.PNG)|![image](css/css2.PNG)|
+  |![css1](css/css1-1.PNG)|![css2](css/css1-2.PNG)|
  
 
-  이때 `h1{color:red}`에서 h1은 **선택자(selector)** 으로 누구에게 적용시킬것인가를 나타내기 때문에 선택자라고 함
+  이때 `h1{color:red}`에서 h1은 **선택자(selector)** 으로 누구에게 적용시킬 것인가를 나타내기 때문에 선택자라고 함
   또, {}안에 있는 것은 **서술(description)** 으로 어떤 효과를 선택자에게 적용할 것인지를 나타내고 있는 곳이다.
+  단, 서술자가 여러 개 있을 때 ;(세미콜론)을 사용해 서술의 속성을 구분함.
 
+* 어떤 태그 안에 있는 선택자에 효과 주기
+```html
+<!DOCTYPE html>
+  <html>
+      <head>
+          <meta charset="utf-8">
+          <style>
+            header h1{
+              border:1px solid red;
+            }
+          </style>
+          <!--border:1px은 테두리를 의미하는 코딩-->
+      </head>
+      <body>
+        <header>
+          <h1>CSS</h1>
+        </header>
+      </body>
+  </html>
+```
+![css3](css/css2.PNG)
+다음 사진처럼 어떤 태그에 상위 태그가 또 있어도 효과를 부여할 수 있다.
+<br></br>
+>CSS-박스 모델
+
+모든 HTML 요소는 박스(box) 모양으로 구성되며, 이것을 박스 모델(box model)이라고 부릅니다.
+박스 모델은 HTML 요소를 패딩(padding), 테두리(border), 마진(margin), 그리고 내용(content)으로 구분합니다.
+
+<img src="css/css_boxmodel.PNG" width="300" height="300">
+[<a href="http://tcpschool.com/css/css_boxmodel_boxmodel">출처</a>]
+
+1. 내용(content) : 텍스트나 이미지가 들어있는 박스의 실질적인 내용 부분입니다.
+
+2. 패딩(padding) : 내용과 테두리 사이의 간격입니다. 패딩은 눈에 보이지 않습니다.
+
+3. 테두리(border) : 내용와 패딩 주변을 감싸는 테두리입니다.
+
+4. 마진(margin) : 테두리와 이웃하는 요소 사이의 간격입니다. 마진은 눈에 보이지 않습니다.
+
+
+```html
+<!DOCTYPE html>
+  <html>
+      <head>
+          <meta charset="utf-8">
+          <style>
+              li{
+                  border:1px red solid;
+                  margin: 30px;
+              }
+              #box{
+                  border: 1px blue dotted;
+                  padding: 30px;
+              }
+          </style>
+      </head>
+      <body>
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li id="box">box model</li>
+        </ul>
+      </body>
+  </html>
+```
+결과
+![boxmodel](css/css3.png)
+
+위의 코드에서처럼 `li{~}`를 통해 사용할 수도 있지만, `<li id="box">box model</li>`에서처럼 id 값을 따로 지정한 후 `<style>`에서 #id이름을 입력하는 것으로도 사용 가능하다.

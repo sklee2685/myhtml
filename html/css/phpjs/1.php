@@ -7,13 +7,13 @@
           <h1>PHP</h1>
           <?php
           echo "Hello php";
-          echo "10+10="10+10;
+          echo 10+10;
           ?>
 
           <h1>JavaScript</h1>
           <script>
               document.write("Hello java");
-              document.write("10+1="10+1);
+              document.write(10+1);
           </script>
       </body>
   </html>

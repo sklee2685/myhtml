@@ -222,6 +222,10 @@ html & css는 정적인 언어이다.
 > JavaScript
 
 클라이언트 단에서 웹 페이지가 동작하는 것을 담당한다.웹 페이지를 자동차에 비유하자면, HTML은 자동차의 뼈대, CSS는 자동차의 외관, JavaScript는 자동차의 동력이라고 볼 수 있다.
+
+`<script></script>` javascript가 시작된고 끝난다는 것을 **javascript의 엔진**에 알려주는 역할을 함
+
+그리고 무언가를 출력할 때에는 `document.write()`를 사용한다.
 <br></br>
 
 >PHP

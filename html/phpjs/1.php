@@ -6,13 +6,14 @@
       <body>
           <h1>PHP</h1>
           <?php
-          echo "Hello php";
-          echo 10+10;
+          echo "안녕하세요 PHP<br>";
+          echo 1000;
           ?>
 
           <h1>JavaScript</h1>
           <script>
-              document.write("Hello java");
+              document.write("안녕하세요 java");
+              document.write(1000);
           </script>
       </body>
   </html>

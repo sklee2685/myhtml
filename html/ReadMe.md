@@ -253,7 +253,7 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
 
 * 변수
 
-변수: 바뀔수있는 어떤값
+변수: 바뀔 수 있는 어떤 값
 
 |Java Script|PHP|
 |:---:|:---:|

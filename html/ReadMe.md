@@ -205,6 +205,7 @@
 |:---:|:---:|
 |![css4-1](css/css4-1.PNG)|![css4-2](css/css4-2.PNG)|
 
+
 <br></br>
 
 # JavaScript & PHP
@@ -245,4 +246,41 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
   |:---:|:---:|:---:|
   |문자|"안녕하세요"|"안녕하세요"|
   |숫자|1000|1000|
-![결과](phpjs/1_php.PNG)
+  |문자 더하기|"1"+"2"|"1"."2"|
+
+![1.php](phpjs/1_php.PNG)
+1.php실행 결과
+
+* 변수
+
+변수: 바뀔수있는 어떤값
+
+|Java Script|PHP|
+|:---:|:---:|
+|name="";|$name="";|
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>JavaScript</h1>
+        <script>
+            name="하세요";
+            document.write("안녕"+name);
+        </script>
+
+        <h1>php</h1>
+        <?php
+            $name="하세요";
+            echo "안녕".$name;
+        ?>
+    </body>
+</html>
+```
+결과
+
+![2.php](phpjs/2_php.PNG)

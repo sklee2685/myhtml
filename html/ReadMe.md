@@ -284,3 +284,14 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
 결과
 
 ![2.php](phpjs/2_php.PNG)
+<br></br>
+
+* 배열
+
+배열: 서로 연관되어 있는 여러 가지 정보를 배열이라고 부르는 그릇에 담아 관리할 수 있음
+
+예시
+||Java Script|PHP|
+|:--:|:---:|:---:|
+|선언|list=new Array("one","two","three");|$list array("one","two","three");|
+|출력|list[0];|$list[0];|

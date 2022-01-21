@@ -294,4 +294,58 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
 ||Java Script|PHP|
 |:--:|:---:|:---:|
 |선언|list=new Array("one","two","three");|$list array("one","two","three");|
-|출력|list[0];|$list[0];|
+||list[0];|$list[0];|
+|출력|document.write(list[2]);|echo $list[1];|
+|결과|three|two|
+
+* 반복문
+
+Java Script
+
+ex)
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+      <script>
+        list=new Array("안","녕","하","세","요");
+        i=0;
+        while(i<list.length){
+          document.write("<li>"+list[i]+"</li>");
+          i=i+1;
+        }
+      </script>
+    </body>
+</html>
+```
+PHP
+
+ex)
+```php
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+    <ul>
+      <?php
+        $list=array("안","녕","하","세","요");
+        $i=0;
+        while($i < count($list)){
+          echo "<li>"+.$list[$i]."</li>";
+          $i=$i+1;
+        }
+      ?>
+    </ul>
+    </body>
+</html>
+```
+|결과|
+|:--:|
+|<li>안</li><li>녕</li><li>하</li><li>세</li><li>요</li>|

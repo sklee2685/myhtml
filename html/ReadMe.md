@@ -251,7 +251,7 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
 ![1.php](phpjs/1_php.PNG)
 1.php실행 결과
 
-* 변수
+## 변수
 
 변수: 바뀔 수 있는 어떤 값
 
@@ -286,7 +286,7 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
 ![2.php](phpjs/2_php.PNG)
 <br></br>
 
-* 배열
+## 배열
 
 배열: 서로 연관되어 있는 여러 가지 정보를 배열이라고 부르는 그릇에 담아 관리할 수 있음
 
@@ -298,7 +298,7 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
 |출력|document.write(list[2]);|echo $list[1];|
 |결과|three|two|
 
-* 반복문
+## 반복문
 
 Java Script
 
@@ -349,3 +349,77 @@ ex)
 |결과|
 |:--:|
 |<li>안</li><li>녕</li><li>하</li><li>세</li><li>요</li>|
+
+## 함수의 기본 문법
+
+||Java Script|PHP|
+|:--:|:---:|:---:|
+|선언|function function_name(){내용}|function function_name(){내용}|
+|호출|function_name();|function_name();|
+
+ex)
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <h1>Java Script</h1>
+        <Script>
+            function a(){
+              //a라는 함수를 만들고, 아래의 코드를 추가함
+                document.write("Hello JS Function");
+            }
+            a();
+            //a(); 아까 만들었던 함수를 호출함으로써 함수a에 있던 코드가 실행됨 -->Hello JS Function이라는 문장이 출력됨
+        </Script>
+
+        <h1>PHP</h1>
+        <?php
+        <!--b 라는 함수를 만들고, 아래의 코드를 추가함-->
+        function b(){
+            echo "Hello PHP Function";
+        }
+        b();
+        <!--아까 만들었던 함수를 호출함으로써 함수b에 있던 코드가 실행됨 ==> Hello PHP Function이라는 문장이 출력됨-->
+        ?>
+    </body>
+</html>
+```
+![3-1.php](phpjs/3-1_php.PNG)
+
+## 함수의 문법-입 출력
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <h1>Java Script</h1>
+        <Script>
+            function a(input){
+                document.write(input+input);
+                //return input+input;
+            }
+            a(3);
+            //document.write(a(3));
+            //주석처리한 코드로 해도 동일한 값이 출력됨
+        </Script>
+
+        <h1>PHP</h1>
+        <?php
+        function b($input){
+            echo $input;
+            <!--return $input;-->
+        }
+        b(5);
+        <!--echo b(5);-->
+        ?>
+    </body>
+</html>
+```
+![3-2.php](phpjs/3-2_php.PNG)

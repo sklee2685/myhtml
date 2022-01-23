@@ -423,3 +423,13 @@ ex)
 </html>
 ```
 ![3-2.php](phpjs/3-2_php.PNG)
+
+# UI vs API
+
+UI(<span style="Color:red">U</span>ser <span style="Color:red">I</span>nterface)
+
+사람(사용자)과 사물 또는 시스템, 특히 기계, 컴퓨터 프로그램 등 사이에서 의사소통을 할 수 있도록 일시적 또는 영구적인 접근을 목적으로 만들어진 물리적, 가상적 매개체이다.
+
+API(<span style="Color:red">A</span>pplication <span style="Color:red">P</span>rogramming <span style="Color:red">I</span>nterface)
+
+컴퓨터나 컴퓨터 프로그램 사이의 연결으로 일종의 소프트웨어 인터페이스이며 다른 종류의 소프트웨어에 서비스를 제공함

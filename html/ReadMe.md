@@ -284,6 +284,24 @@ ex) `echo "Hello world";`를 `<?php ~ ?>` 안에 입력하면 웹에서는 Hello
 결과
 
 ![2.php](phpjs/2_php.PNG)
+
+## Java Script 변수선언 방식-var, let, const 차이점 5가지
+1. 중복선언 가능 여부
+
+2. 재할당 가능 여부
+
+3. 변수 스코프 유효범위
+
+4. 변수 호이스팅 방식
+
+5. 전역객체 프로퍼티 여부
+
+var : 중복 선언이 가능하다.
+
+const, let : 중복 선언 불가능
+
+
+출처: https://curryyou.tistory.com/192 [카레유]
 <br></br>
 
 ## 배열

@@ -1,5 +1,6 @@
-h1 {
-    border-bottom: 1px solid black;
+
+h1{
+    border-bottom: 1px solid gray;
 }
 nav {
     width: 160px;
@@ -10,7 +11,7 @@ nav ol {
     list-style: none;
 }
 article {
-    border-left: 1px solid black;
+    border-left: 1px solid gray;
     width: 414px;
     padding-left: 20px;
     float: left;
@@ -21,4 +22,15 @@ table{
 img{
     max-width: 200px;
     max-height: 200px;
+}
+#control{
+    float:right;
+}
+body.white{
+    background-color: white;
+    color:black;
+}
+body.black{
+    background-color: black;
+    color:white;
 }

@@ -9,9 +9,9 @@
 
 <body id="target">
     <div id="control">
-        <input type="button" value="white" onclick="document.getElementById('target').className='white'" />
-        <input type="button" value="black" onclick="document.getElementById('target').className='black'" />
-        <!--white,black 버튼을 만들어서 이것들을 누르면 화면전체를 블랙 테마와 원래대로 되는 것을 구현-->
+        <input type="button" value="white" id="white_btn"/>
+        <input type="button" value="black" id="black_btn" />
+        <!--기존의 버튼(main.html에 있는버튼)을 다른방법으로 실행-->
     </div>
     
     <a href="main.html">맨처음 화면</a>
@@ -392,6 +392,7 @@ public class MainActivity extends AppCompatActivity {
             </tr>
         </table>
     </article>
+    <script src="script_btn.js"></script>
 </body>
 
 </html>

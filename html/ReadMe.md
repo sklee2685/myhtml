@@ -309,7 +309,7 @@ var로 선언한 변수는 중복해서 선언(+초기화)가 가능하다.
 ## 파일 불러오기
 `file_get_contents("불러올 파일의 이름");`
 다음과 같은 코드를 사용하면 다른 파일의 내용을 불러올 수 있다.
-예를 들어 test.txt 파일에 "coding everybod!"라는 내용의 파일이 있다면
+예를 들어 1.txt 파일에 "Hello"라는 내용의 파일이 있다면
 ```html
 <!DOCTYPE html>
 <html>
@@ -319,13 +319,29 @@ var로 선언한 변수는 중복해서 선언(+초기화)가 가능하다.
     
     <body>
     <?php
-      echo file_get_contets("test.txt");
+      echo file_get_contets("1.txt");
     ?>
     </body>
 </html>
 ```
-이와 같은 코드를 통해 test.txt 파일에 있는 내용을 echo를 통해 홈페이지에 출력할 수 있다.
+이와 같은 PHP코드를 통해 1.txt 파일에 있는 내용을 echo를 통해 홈페이지에 출력할 수 있다.
 
+여기서 2.txt 파일을 생성한 후 내용으로 "World"를 입력한 후, 코드를 아이디 값에 따라 다르게 한다면
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+    <?php
+      echo file_get_contets($_GET[id].".txt");
+    ?>
+    </body>
+</html>
+```
+id 값에 따라 "Hello"와 "World"가 나오는 걸 확인해 볼 수 있다.
 <br></br>
 
 ## 배열

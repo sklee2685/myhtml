@@ -306,6 +306,27 @@ var로 선언한 변수는 중복해서 선언(+초기화)가 가능하다.
  이미 선언한 변수를 다시 선언할 경우, 에러가 발생함
 (var에 비해서 코드의 안정성을 높음)
 <br></br>
+## 파일 불러오기
+`file_get_contents("불러올 파일의 이름");`
+다음과 같은 코드를 사용하면 다른 파일의 내용을 불러올 수 있다.
+예를 들어 test.txt 파일에 "coding everybod!"라는 내용의 파일이 있다면
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+    <?php
+      echo file_get_contets("test.txt");
+    ?>
+    </body>
+</html>
+```
+이와 같은 코드를 통해 test.txt 파일에 있는 내용을 echo를 통해 홈페이지에 출력할 수 있다.
+
+<br></br>
 
 ## 배열
 

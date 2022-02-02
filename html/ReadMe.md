@@ -146,7 +146,7 @@
 모든 HTML 요소는 박스(box) 모양으로 구성되며, 이것을 박스 모델(box model)이라고 부릅니다.
 박스 모델은 HTML 요소를 패딩(padding), 테두리(border), 마진(margin), 그리고 내용(content)으로 구분합니다.
 
-<img src="css/css_boxmodel.PNG" width="300" height="300">
+<img src="css/css_boxmodel.PNG" width="300" height="300" style="border: 1px solid black">
 [<a href="http://tcpschool.com/css/css_boxmodel_boxmodel">출처</a>]
 
 1. 내용(content) : 텍스트나 이미지가 들어있는 박스의 실질적인 내용 부분입니다.

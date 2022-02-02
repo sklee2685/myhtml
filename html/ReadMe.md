@@ -319,7 +319,7 @@ var로 선언한 변수는 중복해서 선언(+초기화)가 가능하다.
     
     <body>
     <?php
-      echo file_get_contets("1.txt");
+    echo file_get_contents("1.txt");
     ?>
     </body>
 </html>
@@ -336,7 +336,7 @@ var로 선언한 변수는 중복해서 선언(+초기화)가 가능하다.
     
     <body>
     <?php
-      echo file_get_contets($_GET[id].".txt");
+      echo file_get_contents($_GET[id].".txt");
     ?>
     </body>
 </html>

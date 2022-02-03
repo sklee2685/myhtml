@@ -63,7 +63,7 @@
   </div>
   
 
-  <a href="main.html">맨처음 화면</a>
+  <a href="main.php">맨처음 화면</a>
   <center>
     <h1>안드로이드 스튜디오를 사용한 코딩</h1>
   </center>
@@ -77,10 +77,11 @@
   </nav>
   <article>
     <div>
-      <h2>각 목차를 클릭시 해당 주차의 코딩과 결과 사진이 나옵니다. 
-        (코딩 순서는 main->actibity.xml->커스텀xml 순서입니다.)</h2>
         <?php
-        if(empty($_GET['id'])==false){
+        if(empty($_GET['id'])==TRUE){
+          echo "<h2>각 목차를 클릭시 해당 주차의 코딩과 결과 사진이 나옵니다. 
+          (코딩 순서는 main->actibity.xml->커스텀xml 순서입니다.)<h2>";
+        }elseif(empty($_GET['id'])==FALSE){
           echo file_get_contents($_GET['id'].".txt");
         }
         ?>

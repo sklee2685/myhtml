@@ -4,54 +4,7 @@
 <head>
   <title>모바일 프로그래밍 코딩</title>
   <meta charset="utf-8">
-  <style>
-    h1{
-      border-bottom: 1px solid gray;
-    }
-
-    nav {
-        width: 160px;
-        float: left;
-    }
-
-    nav ol {
-        list-style: none;
-    }
-    article{
-        border-left: 1px solid gray ;
-        width: 414px;
-        padding-left: 20px;
-        float: left;
-    }
-    article h2{
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: -250px;
-}
-    table{
-        font-size: 10px;
-    }
-    img{
-        max-width: 200px;
-        max-height: 200px;
-    }
-    #control{
-      float:right;
-    }
-
-    body.white{
-      background-color: white;
-      color:black;
-    }
-    
-    body.black{
-      background-color: black;
-      color:white;
-    }
-    /*이렇게 css를 표시할수도 있지만, 9.html이나 10.html처럼
-    link를 사용해 더 간단히 그리고 수정도 더 편하게 만들수있다.*/
-</style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body id="target">

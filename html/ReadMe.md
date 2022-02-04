@@ -494,8 +494,13 @@ API(<span style="Color:red">A</span>pplication <span style="Color:red">P</span>r
 <br></br>
 
 # 데이터베이스-MySQL
-세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이터베이스 관리 시스템(RDBMS)이다. 
-다중 스레드, 다중 사용자 형식의 구조질의어 형식의 데이터베이스 관리 시스템으로서 오라클이 관리 및 지원하고 있으며, Qt처럼 이중 라이선스가 적용된다.
+세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이터베이스 관리 시스템
+(= 엑셀이랑 비슷하게 사용함)
+
+데이터베이스랑 엑셀과 차이점이라하면 SQL(<span style="Color:red">S</span>tructured <span style="Color:red">Q</span>uery <span style="Color:red">L</span>anguage)의 유무의 차이이다. 
+
+여기서 SQL이란? 컴퓨터에게 구조화된 정보를 질의 하는 프로그래밍 언어를 의미한다.
+
 
 * 데이터베이스 장점
 1. 데이터 중복 최소화

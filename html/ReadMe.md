@@ -499,16 +499,16 @@ API(<span style="Color:red">A</span>pplication <span style="Color:red">P</span>r
 
 데이터베이스랑 엑셀과 차이점이라하면 SQL(<span style="Color:red">S</span>tructured <span style="Color:red">Q</span>uery <span style="Color:red">L</span>anguage)의 유무의 차이이다. 
 
-여기서 SQL이란? 컴퓨터에게 구조화된 정보를 질의 하는 프로그래밍 언어를 의미한다.
+여기서 SQL 이란? 컴퓨터에게 구조화된 정보를 질의(질문) 하는 프로그래밍 언어를 의미한다.
 
 또, MySQL은 Client와 Server의 구성을 가지고 있다.
 
-여기서 클라이언가 서버에세 어떤 정보를 요청하면, 서버는 클라이언트에게 저장되어있는 정보를 가지고와서 보내주게 된다.
-해당 데이터베이스를 사용하기 위해 mySQL를 설치하면 설치되어있는 mySQL montior를 이용해 데이터베이스를 제어 할수있다.(단, 사용하기 좀 어렵다.)
+여기서 클라이언트 가 서버에서 어떤 정보를 요청하면, 서버는 클라이언트에게 저장되어 있는 정보를 가지고 와서 보내주게 된다.
+해당 데이터베이스를 사용하기 위해 mySQL를 설치하면 설치되어 있는 mySQL montior를 이용해 데이터베이스를 제어할 수 있다.(단, 사용하기 좀 어렵다.)
 
 ## [Window]
 이제 mySQL montior를 실행시키기 위해 "명령 프롬프트"를 실행한 후
-`mysql -hlocalhost -uroot -p`를 입력하면 "Enter password:" 라는 문구가 나오는데 여기에 사용자가 설정했던 비밀번호를 입력하면 된다.
+`mysql -hlocalhost -uroot -p`를 입력하면 "Enter password:"라는 문구가 나오는데 여기에 사용자가 설정했던 비밀번호를 입력하면 된다.
 
 * 데이터베이스 장점
 1. 데이터 중복 최소화

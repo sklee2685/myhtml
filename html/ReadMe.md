@@ -501,6 +501,9 @@ API(<span style="Color:red">A</span>pplication <span style="Color:red">P</span>r
 
 여기서 SQL이란? 컴퓨터에게 구조화된 정보를 질의 하는 프로그래밍 언어를 의미한다.
 
+또, MySQL은 Client와 Server의 구성을 가지고 있다.
+
+여기서 클라이언가 서버에세 어떤 정보를 요청하면, 서버는 클라이언트에게 저장되어있는 정보를 가지고와서 보내주게 된다.
 
 * 데이터베이스 장점
 1. 데이터 중복 최소화

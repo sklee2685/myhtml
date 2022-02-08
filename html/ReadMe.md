@@ -1,3 +1,10 @@
+css 파일: css연습및 메인홈페이지에 관련코딩이 있음
+php 파일: 메인 홈페이지를 php파일로 변환함
+phpjs 파일: php언어와 javascript언어가 웹상에서 어떤 코드 차이가 있는지 비교함
+screenshot 파일: 메인 홈페이에서 사용된 사진의 모음집
+script_btn.js : 다크모드 전환 코드
+template.html : html파일의 기본 구성을 만들어 둔 코드 (복붙용)
+
 # html 문법 정리
 > `<strong></strong>`
 

@@ -28,10 +28,10 @@ template.html : html파일의 기본 구성을 만들어 둔 코드 (복붙용)
 `<h1></h1>`, `<h2></h2>`둘다 문서의 주제어(제목)을 표시할때 이용함
 
 사용시 다음 아래처럼 나옴
-<h1>제목1</h1>
-<h2>제목2</h2>
+<h1>제목1(h1 사용)</h1>
+<h2>제목2(h2 사용)</h2>
 
->list 
+> list 
 
 `<li> </li>`를 사용하게 된다면
 <li>html</li>
@@ -85,6 +85,7 @@ template.html : html파일의 기본 구성을 만들어 둔 코드 (복붙용)
 
 * `<article></article>` 해당 태그를 사용해 이 문서의 본문이라는 점을 나타내기 위해 사용함
 <br><br/>
+
 # CSS(디자인을 위한 언어) 기본 문법
 <span style="Color:red">C</span>ascading <span style="Color:red">S</span>tyle <span style="Color:red">S</span>heet: HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된  **문서의 표시 방법을 기술하기 위한 스타일 시트 언어**입니다. CSS는 요소가 화면, 종이, 음성이나 다른 매체 상에 어떻게 렌더링 되어야 하는지 지정합니다.
 [<a href="https://developer.mozilla.org/ko/docs/Web/CSS" target="_self">출처</a>]

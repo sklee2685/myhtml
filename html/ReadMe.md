@@ -5,6 +5,9 @@ screenshot 파일: 메인 홈페이에서 사용된 사진의 모음집
 script_btn.js : 다크모드 전환 코드
 template.html : html파일의 기본 구성을 만들어 둔 코드 (복붙용)
 
+https://sklee2685.tistory.com/
+지금 까지 배운 내용 정리해둔 싸이트
+
 # html 문법 정리
 > `<strong></strong>`
 

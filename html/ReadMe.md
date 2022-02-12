@@ -5,7 +5,7 @@ php 파일: 메인 홈페이지를 php파일로 변환함
 phpjs 파일: php언어와 javascript언어가 웹상에서 어떤 코드 차이가 있는지 비교함
 
 screenshot 파일: 메인 홈페이에서 사용된 사진의 모음집
-
+w
 script_btn.js : 다크모드 전환 코드
 
 template.html : html파일의 기본 구성을 만들어 둔 코드 (복붙용)
@@ -34,10 +34,11 @@ https://sklee2685.tistory.com/
 >`<h1></h1>`, `<h2></h2>`
 
 `<h1></h1>`, `<h2></h2>`둘다 문서의 주제어(제목)을 표시할때 이용함
-
+<br></br>
 사용시 다음 아래처럼 나옴
 <h1>제목1(h1 사용)</h1>
 <h2>제목2(h2 사용)</h2>
+<br></br>
 
 > list 
 
@@ -57,6 +58,7 @@ https://sklee2685.tistory.com/
 |`<ul></ul>`|<ul><li>html</li><li>css</li></ul> <ul><li>JavaScript</li></ul>|
 |`<ol></ol>`|<ol><li>html</li><li>css</li><li>JavaScript</li></ol>|
 
+<br></br>
 > head, body, html 태그 
 
 `<head></head>`: 해당 문서의 정보를 담고 있는 태그
@@ -82,7 +84,7 @@ https://sklee2685.tistory.com/
       </body>
     </html>
     ```
-
+<br></br>
 >Semantic Web(의미가 잘 드러나는 웹)
 
 * `<nav></nav>`이라는 태크를 사용하면 이 태그 안에 있는 것이 내비게이션을 위한 리스트라는 것을 웹페이지에 알려줌
@@ -92,7 +94,7 @@ https://sklee2685.tistory.com/
 
 
 * `<article></article>` 해당 태그를 사용해 이 문서의 본문이라는 점을 나타내기 위해 사용함
-<br><br/>
+<br></br>
 
 # CSS(디자인을 위한 언어) 기본 문법
 <span style="Color:red">C</span>ascading <span style="Color:red">S</span>tyle <span style="Color:red">S</span>heet: HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된  **문서의 표시 방법을 기술하기 위한 스타일 시트 언어**입니다. CSS는 요소가 화면, 종이, 음성이나 다른 매체 상에 어떻게 렌더링 되어야 하는지 지정합니다.
@@ -132,7 +134,7 @@ https://sklee2685.tistory.com/
   이때 `h1{color:red}`에서 h1은 **선택자(selector)** 으로 누구에게 적용시킬 것인가를 나타내기 때문에 선택자라고 함
   또, {}안에 있는 것은 **서술(description)** 으로 어떤 효과를 선택자에게 적용할 것인지를 나타내고 있는 곳이다.
   단, 서술자가 여러 개 있을 때 ;(세미콜론)을 사용해 서술의 속성을 구분함.
-
+<br></br>
 * 어떤 태그 안에 있는 선택자에 효과 주기
 ```html
 <!DOCTYPE html>
@@ -203,7 +205,7 @@ https://sklee2685.tistory.com/
 ![boxmodel](css/css3.PNG)
 
 위의 코드에서처럼 `li{~}`를 통해 사용할 수도 있지만, `<li id="box">box model</li>`에서처럼 id 값을 따로 지정한 후 `<style>`에서 #id이름을 입력하는 것으로도 사용 가능하다.
-
+<br></br>
 >float
 
 문서에서 사진과 그림이 있을 때, 그림을 왼쪽이나 오른쪽에 띄워서 정렬하거나 각 객체를 오른쪽이나 왼쪽으로 정렬하여 전체 문서를 배치(layout)할 때도 사용함

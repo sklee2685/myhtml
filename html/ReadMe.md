@@ -10,6 +10,8 @@ script_btn.js : 다크모드 전환 코드
 
 template.html : html파일의 기본 구성을 만들어 둔 코드 (복붙용)
 
+[Git]Error : git을 사용중 발생했던 오류 및 해결방안
+
 https://sklee2685.tistory.com/
 지금 까지 배운 내용 정리해둔 싸이트
 

@@ -20,6 +20,26 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 
 ## Github에 파일 업로드하기
 
+먼저 업로드하기 전 먼저 생성한 Repository로 이동하여 HTTPS에 해당하는 url을 복사해줍니다.
+![git3](screenshot/git3.png)
+
+이제 업로드하려고 하는 파일 위치에서 Git Bashf를 실행하고 다음 코드를 입력한다.
+
+1. `git init`:맨 처음에 프로젝트를 올릴때 꼭 해줘야함 파일 업로드를 하고 다음 파일을 올릴땐 사용X 
+이것을 입력하면 해당 디렉터리 안에 .git이라는 폴더가 생성된다. (숨김항목을 체크해야 보임)
+![git4](screenshot/git4.png)
+
+2. `git add `:어떤 파일을 추가할지 찾아봄(마지막에 .을 추가하면 해당 디렉토리에 있는 파일 전부를 추가함)
+
+3. `git commit -m "파일이름"`: 파일 히스토리를 만들어줌(수정 계속 가능)
+
+4. `git remote add origin 아까 복사한 url 붙여넣기`
+입력후 `git remote -v`를 입력해 github에 자신이 만든 저장소 이름이 나오면 성공
+
+5. `git push origin main`: 아까 `git commit -m "파일이름"` 했던 파일들을 github에 업로드를 시작함
+
+다음 업로드부터는 2,3,5번만 하면 업로드 됨
+
 
 # 오류및 해결방안
 git을 사용해  gihub에 파일을 업로드할 때

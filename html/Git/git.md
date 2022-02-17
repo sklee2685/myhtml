@@ -17,6 +17,7 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 `git config --global user.name "사용자 이름"`
 `git config --global user.email github가입 시 사용한 이메일주소`
 해당 코드를 입력해주고, `git config --list`를 입력해 'user.name','user.email'를 확인해봐서 방금 입력한 게 입력되어있으면 성공이다.
+![git5](screenshot/git5.PNG)
 
 ## Github에 파일 업로드하기
 
@@ -38,7 +39,8 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 
 5. `git push origin main`: 아까 `git commit -m "파일이름"` 했던 파일들을 github에 업로드를 시작함
 
-다음 업로드부터는 2,3,5번만 하면 업로드 됨
+* tip) 다음 업로드부터는 2,3,5번만 하면 업로드 됨
+<br></br>
 
 
 # 오류및 해결방안
@@ -47,7 +49,7 @@ git을 사용해  gihub에 파일을 업로드할 때
 .git 파일 안에 있는 index.lock 파일에 오류가 발생했음
 그럼으로 인해 아래와 같은 사진이 출력됨
 ![error1](screenshot/error1.PNG)
-해당 오류가 나오면 `commit`및 `push`명령어가 실행되지 X
+해당 오류가 나오면 `git commit -m "~~"`및 `git push origin main`명령어가 실행되지 X
 
 
 * [해결 방법]
@@ -58,4 +60,4 @@ git을 사용해  gihub에 파일을 업로드할 때
 
 3. 문제가 되는 index.lock 파일을 `rm -f ./.git/index.lock`를 통해 삭제
 
-4. 다시  `commit`및 `push`명령어가 실행
+4. 다시  `commit`및 `push`명령어를 실행하면 해결되어있음

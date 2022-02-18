@@ -7,7 +7,7 @@
 
 그 다음으로 Git이라는 인스톨러를 사용해야 하기 때문에 각 컴퓨터에 맞는 os를 설치해 줘야한다. 
 
-window
+[window에서 Git 설치및 셋팅]
 
 https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한다.
 

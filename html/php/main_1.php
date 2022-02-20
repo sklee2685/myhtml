@@ -24,7 +24,7 @@
     <ol>
       <<목차>>
         <?php
-        echo file_get_contents("list.txt");
+        echo file_get_contents("list.txt"); //목차를 불러옴
         ?>
     </ol>
   </nav>
@@ -34,7 +34,8 @@
         if(empty($_GET['id'])==TRUE){
           echo "<h2>각 목차를 클릭시 해당 주차의 코딩과 결과 사진이 나옵니다. 
           (코딩 순서는 main->actibity.xml->커스텀xml 순서입니다.)<h2>";
-          echo file_get_contents("hwp.txt");
+
+          echo file_get_contents("hwp.txt"); //추가 설명
         }elseif(empty($_GET['id'])==FALSE){
           echo file_get_contents($_GET['id'].".txt");
         }

@@ -44,7 +44,10 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 
 ## Visual Studio Code에서 git 사용하기
 명령 프로토콜에서 사용할 폴더위치를 `cd 파일이름`를 사용해 폴더위치를 이동한다. 해당 폴더로 이동했으면 `code .`를 입력하면 Visual Studio Code가 열리면서 사용할수 있고 해당 터미널에서 git을 사용할수있다.
-![git6](screenshot/git6.png)
+|||
+|:---:|:---:|
+|![git6](screenshot/git6.png)|![git7](screenshot/git7.png)|
+
 
 # 오류및 해결방안
 git을 사용해  gihub에 파일을 업로드할 때

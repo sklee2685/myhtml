@@ -50,7 +50,7 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 
 회사에서 주로 사용법은 아래 링크를 참조
 
-<a href="https://www.youtube.com/watch?v=cwC8t9dno2s&t=16s">코딩알려주는누나.youtube</a>
+<a href="https://www.youtube.com/watch?v=cwC8t9dno2s&t=16s">코딩알려주는누나-youtube</a>
 <br></br>
 
 

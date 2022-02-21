@@ -48,6 +48,11 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 |:---:|:---:|
 |![git6](screenshot/git6.png)|![git7](screenshot/git7.png)|
 
+회사에서 주로 사용법은 아래 링크를 참조
+
+<a href="https://www.youtube.com/watch?v=cwC8t9dno2s&t=16s">코딩알려주는누나.youtube</a>
+<br></br>
+
 
 # 오류및 해결방안
 git을 사용해  gihub에 파일을 업로드할 때

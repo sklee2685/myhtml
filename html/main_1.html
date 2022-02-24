@@ -152,7 +152,7 @@
 1-2) 알고리즘
 * 알고리즘(Algorithm): 문제를 해결하기 위한 일련의 단계를 절차적으로 표현한 것
 ex)
-
+<img src="screenshot/noname01.png" alt="noname1">
 
 
 
@@ -167,13 +167,13 @@ ex)
 
 <strong><a name="2">2) 모바일 프로그래밍관련 설명</a></strong>
 2-1) 안드로이드의 구조
-
-
+<img src="screenshot/noname02.png" alt="noname2">
 맨 위에서부터 애플리케이션, 애플리케이션 프레임워크,자바앱을 실행하기 위한 런타임 환경 등 안드로이드 플랫폼의 주요 구성 요소를 보여줌
 
 
 2-2) 애플리케이션 실행 단계
-출처 <--클릭
+<img src="screenshot/noname03.png" alt="noname3">
+<a href="https://velog.io/@keepcalm/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98-%EA%B8%B0%EB%B3%B8-%ED%8A%B9%EC%A7%95-%EA%B8%B0%EB%B3%B8-%EA%B5%AC%EC%A1%B0-%EC%8B%A4%ED%96%89%EB%8B%A8%EA%B3%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%8C%A8%ED%82%A4%EC%A7%80-%ED%8F%B4%EB%8D%94">출처</a><--클릭
 1. java로 입력한 소스 코드를 javac가 컴파일해서 class 파일을 만든다. (class 파일은 JVM spec을 따른다.)
 2. desugar 작업을 통해 class 파일을 dex화(DVM이 이해할 수 있는 포맷)시켜 .dex파일로 변환한다.
 3. DVM이나 ART이 dex 파일을 실행한다.
@@ -198,64 +198,93 @@ ex)
 <strong><a name="3">3) 필요한 프로그램 설치 방법</a></strong>
 3-1) JDK설치 방법
 
-1.
-https://www.oracle.com/kr/java/technologies/javase-downloads.html 접속 후
-동그라미 표시가 되어있는 곳을 클릭 
+<table border="1">
+  <tr>
+    <td>1.
+      <img src="screenshot/noname04.png" alt="noname4">
+      https://www.oracle.com/kr/java/technologies/javase-downloads.html 접속 후
+       동그라미 표시가 되어있는 곳을 클릭 </td>
 
-2. 그러고 아래로 스크롤을 내려서 자신이 다운받아야하는 os파일 클릭(ex윈도우나 맥)후 다운
+    <td>2.
+      <img src="screenshot/noname05.png" alt="noname5"> 
+      그러고 아래로 스크롤을 내려서 자신이 다운받아야하는 os파일 클릭(ex윈도우나 맥)후 다운</td>
+  </tr>
 
-3.다운 받은 파일을 실행 후 next를 계속 누름
+  <tr>
+    <td>3.
+      <img src="screenshot/noname06.png" alt="noname6">
+      다운 받은 파일을 실행 후 next를 계속 누름</td>
 
+    <td>4. 
+      <img src="screenshot/noname07-1.png" alt="noname7-1">
+      <img src="screenshot/noname07-2.png" alt="noname7-2">
+      완료후 파일이 잘 설치되었는지 확인
+      경로:내pc->c드라이브->program files->java</td>
+  </tr>
 
-4. 완료후 파일이 잘 설치되었는지 확인
-경로:내pc->c드라이브->program files->java
-
-
+</table>
 
 
 3-2) 안드로이드 스튜디오 설치방법 및 기본 설정
 설치방법
 
-1. https://developer.android.com/ 접속후 안드로이드 스튜디오 다운로드 클릭
-2.다운 받은 파일을 실행후 계속 next를 클릭후 install클릭
+<table border="1">
+  <tr>
+    <td>1.
+      <img src="screenshot/noname08.png" alt="noname8">
+       https://developer.android.com/ 접속후 안드로이드 스튜디오 다운로드 클릭</td>
 
-3.안드로이드 스튜디오를 실행후 계속next클릭후 마지막 finish를 클릭
+    <td>2.
+      <img src="screenshot/noname09-1.png" alt="noname9-1">
+      <img src="screenshot/noname09-2.png" alt="noname9-2">
+      다운 받은 파일을 실행후 계속 next를 클릭후 install클릭</td>
+  </tr>
 
-4. 마지막으로 finish를 누르면 기본 설치 끝
-경로:내pc->c드라이브->program files->Android
+  <tr>
+    <td>3.
+      <img src="screenshot/noname10-1.png" alt="noname10-1">
+      <img src="screenshot/noname10-2.png" alt="noname10-2">
+      안드로이드 스튜디오를 실행후 계속next클릭후 마지막 finish를 클릭</td>
 
+    <td>4.
+      <img src="screenshot/noname11.png" alt="noname11">
+      마지막으로 finish를 누르면 기본 설치 끝
+      경로:내pc->c드라이브->program files->Android</td>
+  </tr>
+</table>
 
-기본 설정
+<table border="1">
+  <th>기본 설정</th>
+  <th>path 연결</th>
+  <tr>
+    <td>1.
+      <img src="screenshot/noname12.png" alt="noname12">
+      more action에서 SDK manager클릭</td>
+    <td>1.
+      <img src="screenshot/noname15.png" alt="noname15">
+      윈도우 검색창에 고급 시스템 설정 검색</td>
+  </tr>
 
-1.more action에서 SDK manager클릭
+  <tr>
+    <td>2.
+      <img src="screenshot/noname13-1.png" alt="noname13-1">
+      <img src="screenshot/noname13-2.png" alt="noname13-2">
+      체크되어 있는 파일 모두 설치후 finish클릭</td></td>
 
-2.체크되어 있는 파일 모두 설치후 finish클릭
+    <td>2.
+      <img src="screenshot/noname16.png" alt="noname16">
+      환경 변수 클릭</td>
+  </tr>
 
-
-3. 다음으로는 SDK Tool로 들어가 다음처럼 체크 후 2번에서 했던 거처럼 설치
-
-                path연결
-1.윈도우 검색창에 고급 시스템 설정 검색
-
-2.환경 변수 클릭
-
-3. 시스템 변수가 path인 것을 클릭후 편집 클릭  아래그림처럼 되어있으면 기본설정 끝
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <tr>
+    <td>3. 
+      <img src="screenshot/noname14.png" alt="noname14">
+      다음으로는 SDK Tool로 들어가 다음처럼 체크 후 2번에서 했던 거처럼 설치</td>
+    <td>3.
+      <img src="screenshot/noname17.png" alt="noname17">
+      시스템 변수가 path인 것을 클릭후 편집 클릭  아래그림처럼 되어있으면 기본설정 끝</td>
+  </tr>
+</table>
 
 <strong><a name="4">4) 애플리케이션 구성</a></strong>
 
@@ -272,18 +301,29 @@ https://www.oracle.com/kr/java/technologies/javase-downloads.html 접속 후
 
 4-2) 비주얼 도구 및 설명
 
-
+<div style="float:left;"><img src="screenshot/noname18.png" alt="noname18"></div>
 옆에 사진은 비주얼에서 주로 사용하는 도구들이 있는 창이다, 이곳에서 필요한 것을 드래그해서 인터페이스를 디자인 할 수 있다.
 
 tip) 에를 들어 버튼하나를 추가한 후 code를 보면 @+id/button을 찾아볼 수 있다.(/이후 이름은 수정가능)
 이때 또 하나의 버튼을 추가하면 @+id/button1을 찾아볼 수 있어 이것이 어떤 기능을 하는 버튼인지 구별하수있게 도와준다.
 
+
+
+
+
+
+
+
 4-3) XML
 XML의 장점: 애플리케이션의 외관과 애플리케이션의 로직을 서로 분리했고, 빠르게 UI를 구축할 수 있다.
+<div style="float:left;"><img src="screenshot/noname19.png" alt="noname19">
+<img src="screenshot/noname20.png" alt="noname20"></div>
+
+인터페이스를 만들 때 사용하는 도구중 TextCView를 Design과 Code에서봤을떄의 화면이다.
+ (둘 중 하나의 값을 건들이면 다른 한쪽에도 그대로 적용이됨 예를들어 text의 TextView를 안녕하세요 로 바꾸면 androide:text=”안녕하세요“ 로 바뀜)
 
 
-인터페이스를 만들 때 사용하는 도구중 TextCView를 Design과 Code에서봤을떄의 화면이다. (둘 중 하나의 값을 건들이면 다른 한쪽에도 그대로 적용이됨 예를들어 text의 TextView를 안녕하세요 로 바꾸면
-androide:text=”안녕하세요“ 로 바뀜)
+
 
 
 
@@ -301,71 +341,122 @@ androide:text=”안녕하세요“ 로 바뀜)
 
 *뷰의 위치와 크기 정하기
 
-match_parent
-크기를 꽉채움
-wrap_content
-뷰가 나타내는 내용물의 크기에 맞춘다(사용자가 조절)
-숫자(단위는 dp)
-크기를 정확히 입력함
+<table border="1">
+  <tr>
+    <td>match_parent</td>
+    <td>크기를 꽉채움</td>
+  </tr>
 
+  <tr>
+    <td>wrap_content</td>
+    <td>뷰가 나타내는 내용물의 크기에 맞춘다(사용자가 조절)</td>
+  </tr>
+
+  <tr>
+    <td>숫자(단위는 dp)</td>
+    <td>크기를 정확히 입력함</td>
+  </tr>
+</table>
 
 *화면에 보이기 속성
+<table border="1">
+  <tr>
+    <td>visible</td>
+    <td>0</td>
+    <td>화면에 보이게함</td>
+  </tr>
 
-visible
-0
-화면에 보이게함
-invisible
-1
-화면에 표시X
-gone
-2
-완전히 숨김
+  <tr>
+    <td>invisible</td>
+    <td>1</td>
+    <td>화면에 표시X</td>
+  </tr>
 
+  <tr>
+    <td>gone</td>
+    <td>2</td>
+    <td>완전히 숨김</td>
+  </tr>
+</table>
 
 5-3) 마진과 패딩
+<table border="1">
+  <tr>
+    <td rowspan="3" align="center"><img src="screenshot/noname21.png" alt="noname21"></td>
+      <td>패딩(padding): 뷰의 경계와 뷰의 내용물 사이의 간격</td>
+  </tr>
 
-
-패딩(padding): 뷰의 경계와 뷰의 내용물 사이의 간격
-마진(margin): 자식 뷰 주위의 여백
-
+  <tr>
+    <td>마진(margin): 자식 뷰 주위의 여백</td>
+  </tr>
+</table>
 
 5-4) 레이아웃
+<table border="1">
+  <tr>
+    <td rowspan="3" align = "center" bgcolor="skyblue">orientation</td>
+    <td>horizontal은 수평으로 배치</td>
+  </tr>
+  
+  <tr>
+    <td>vertical은 수직으로 배치</td>
+  </tr>
+</table>
 
-orientation
-horizontal은 수평으로 배치
-vertical은 수직으로 배치
-
-
+<img src="screenshot/noname22.png" alt="noname22">
 
 <strong><a name="6">6) 이벤트 처리</a></strong>
 
 6-1) 이벤트 처리방법
-1. xml 파일에 이벤트 처리 메소드를 등록(가장 쉬운 방법)
-2. 이벤트 처리 객체(Listener)를 생성하여 컴포넌트에 등록(일반적인 방법)
-3. 뷰 클래스의 이벤트 처리 메소드를 재정의(게임 만들 때 사용)
+  1. xml 파일에 이벤트 처리 메소드를 등록(가장 쉬운 방법)
+  2. 이벤트 처리 객체(Listener)를 생성하여 컴포넌트에 등록(일반적인 방법)
+  3. 뷰 클래스의 이벤트 처리 메소드를 재정의(게임 만들 때 사용)
 
 6-2) XML사용
 이벤트 처리 코드
-
-public void click(View target){Toast.makeText(getApplicationContext(),"버튼이 눌렸습니다.",Toast.LENGTH_SHORT).show();}
-여기서 LENGTH_SHORT은
-LENGTH_LONG로 바꿀수 있고 각각 2초,5초의 딜레이를 준다.
-
+<table border="1">
+  <tr>
+    <td>public void click(View target){
+      Toast.makeText(getApplicationContext(),"버튼이 눌렸습니다.",
+      Toast.LENGTH_SHORT).show();
+    }</td>
+    <td>여기서 LENGTH_SHORT은
+LENGTH_LONG로 바꿀수 있고 각각 2초,5초의 딜레이를 준다.</td>
+  </tr>
+</table>
 
 6-3) Listener 사용
 사용방법
-1. 리스너 클래스를 내부 클래스로 정의
-2. 리스너 클래스를 무명 클래스로 정의( 가장 많이 사용함)
-3. 리스너 인터페이스를 액티비티 클래스에 구현
+  1. 리스너 클래스를 내부 클래스로 정의
+  2. 리스너 클래스를 무명 클래스로 정의( 가장 많이 사용함)
+  3. 리스너 인터페이스를 액티비티 클래스에 구현
 
 *무명 클래스 정의
+<table border="1">
+  <tr>
+    <td>setContentView(R.layout.activity_main);
+Button button=(Button) findViewById(R.id.button);
 
-setContentView(R.layout.activity_main);Button button=(Button) findViewById(R.id.button);MyListenerclass buttonListener=new MyListenerclass();button.setOnClickListener(buttonListener);
-단, 이 코드를 사용하기 위해선
+MyListenerclass buttonListener=new
+MyListenerclass();
+button.setOnClickListener(buttonListener);</td>
+
+    <td>단, 이 코드를 사용하기 위해선
 오른쪽 코드처럼
- MyListenerclass라는 클래스를 만들어야함
+ MyListenerclass라는 클래스를 만들어야함</td>
+ 
+    <td>class MyListenerclass implements View.OnClickListener {
+  public void onClick(View v) {
+    Toast.makeText(getApplicationContext(), "버튼이 눌렸습니다.",
+    Toast.LENGTH_SHORT).show();
+  }
+};</td>
+  </tr>
+</table>
 
-class MyListenerclass implements View.OnClickListener {public void onClick(View v) {Toast.makeText(getApplicationContext(), "버튼이 눌렸습니다.",Toast.LENGTH_SHORT).show();}};
+
+
+
 
 <strong><a name="7">7) 사용자 메뉴</a></strong>
 

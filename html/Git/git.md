@@ -40,6 +40,8 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 5. `git push origin main`: 아까 `git commit -m "파일이름"` 했던 파일들을 github에 업로드를 시작함
 
 * tip) 다음 업로드부터는 2,3,5번만 하면 업로드 됨
+
+* tip) 회사에선 `git push origin main` 대신 `git checkout -b 원하는 이름`를 사용 해당 코드를 입력하면 main의 파일에는 어떠한 영향을 미치지 않고, "원하는 이름"이라는 저장공간이 따로 생겨 최고 관리자가 검토후 수락을 해야 main의 파일에 해당 파일이 저장됨
 <br></br>
 
 ## Visual Studio Code에서 git 사용하기
@@ -48,6 +50,12 @@ https://git-scm.com/ Git 공식 웹사이트에 접속해 Git을 다운로드한
 ![git6](screenshot/git6.png)
 ![git7](screenshot/git7.png)
 
+## GitHub에 있는 파일 가지고 오기
+
+![git8](screenshot/git8.png)
+해당 사진처럼 가지고올 github파일에 접속한 후 Code에서 해당 동그라미 표시를 누르면 복사가 된다. 이걸 컴퓨터 명령 프로토콜을 열어
+`git clone 복사한거 붙여넣기`를 사용하면 github에 있는 파일이 다운로드 된다.
+(파일은 프로토콜의 위치에 저장된다. ex C:\Users\sklee\Desktop 이면 바탕화면에 파일이 저장됨)
 
 회사에서 주로 사용법은 아래 링크를 참조
 

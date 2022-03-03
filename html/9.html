@@ -107,34 +107,31 @@
                 </td>
                 <td>
                     <pre>
-        *대신 "<"를 넣어주세요 (html을 사용하니 나오질 않음)
-        (ctrl+Shift+R를 누르시면 바꾸기 편함)
-
-        *?xml version="1.0" encoding="utf-8"?>
-        *menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        &lt;?xml version="1.0" encoding="utf-8"?>
+        &lt;menu xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:android="http://schemas.android.com/apk/res/android">
         
-            *item
+            &lt;item
                 android:title="사과"
                 android:id="@+id/apple"
                 android:icon="@drawable/ic_launcher_background" />
-            *item
+            &lt;item
                 android:title="포도"
                 android:id="@+id/grape"
                 android:icon="@drawable/ic_launcher_background" />
-            *item
+            &lt;item
                 android:title="바나나"
                 android:id="@+id/banana"
                 android:icon="@drawable/ic_launcher_background" />
-            *item
+            &lt;item
                 android:title="망고"
                 android:id="@+id/mango"
                 android:icon="@drawable/ic_launcher_background" />
-            *item
+            &lt;item
                 android:title="복숭아"
                 android:id="@+id/peach"
                 android:icon="@drawable/ic_launcher_background" />
-            */menu></td>
+            &lt;/menu></td>
             <td>
                 <img src="screenshot/9-1.jpg" height="300" alt="결과">
                 <img src="screenshot/9-2.png" height="300" title="결과">
@@ -192,29 +189,26 @@
                 </td>
                 <td>
                     <pre>
-        "*"대신 "<"를 넣어주세요 (html을 사용하니 나오질 않음)
-        (ctrl+Shift+R를 누르시면 바꾸기 편함)
-
-        *?xml version="1.0" encoding="utf-8"?>
-        *menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        &lt;?xml version="1.0" encoding="utf-8"?>
+        &lt;menu xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:android="http://schemas.android.com/apk/res/android">
         
-            *item
+            &lt;item
                 android:id="@+id/action_refresh"
                 android:icon="@drawable/ic_launcher_refresh_image0"
                 android:title="refresh"
                 app:showAsAction="always" />
-            *item
+            &lt;item
                 android:id="@+id/action_search"
                 android:icon="@drawable/ic_launcher_refresh_image1"
                 app:showAsAction="ifRoom"
                 android:title="search"/>
-            *item
+            &lt;item
                 android:id="@+id/action_setting"
                 android:orderInCategory="100"
                 app:showAsAction="never"
                 android:title="action_setting"/>
-        */menu>
+        &lt;/menu>
         </pre>
                 </td>
                 <td><img src="screenshot/9-3.png" height="300" alt="결과">
@@ -304,18 +298,15 @@ public class MainActivity extends AppCompatActivity {
                 </td>
                 <td>
                     <pre>
-    "*"대신 "<"를 넣어주세요 (html을 사용하니 나오질 않음)
-    (ctrl+Shift+R를 누르시면 바꾸기 편함)
-    
-    *?xml version="1.0" encoding="utf-8"?>
-    *androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    &lt;?xml version="1.0" encoding="utf-8"?>
+    &lt;androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     
-        *LinearLayout
+        &lt;LinearLayout
             android:id="@+id/Linearlayout01"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -323,7 +314,7 @@ public class MainActivity extends AppCompatActivity {
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="1dp">
     
-            *TextView
+            &lt;TextView
                 android:id="@+id/textView01"
                 android:layout_width="match_parent"
                 android:layout_height="374dp"
@@ -331,37 +322,34 @@ public class MainActivity extends AppCompatActivity {
                 android:textSize="190px"
                 android:typeface="serif" />
     
-            *LinearLayout
+            &lt;LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
         </pre>
                 </td>
                 <td>
                     <pre>
-            "*"대신 "<"를 넣어주세요 (html을 사용하니 나오질 않음)
-            (ctrl+F를 누르시면 바꾸기 편함)
-
-            *menu xmlns:android="http://schemas.android.com/apk/res/android">
-                *item
+            &lt;menu xmlns:android="http://schemas.android.com/apk/res/android">
+                &lt;item
                     android:id="@+id/search"
                     android:icon="@android:drawable/ic_menu_search"
                     android:title="search"/>
-                *item
+                &lt;item
                     android:id="@+id/add"
                     android:icon="@android:drawable/ic_menu_add"
                     android:title="add"/>
-                *item
+                &lt;item
                     android:id="@+id/edit"
                     android:icon="@android:drawable/ic_menu_edit"
                     android:title="edit" >
-                    *menu>
-                        *item
+                    &lt;menu>
+                        &lt;item
                             android:id="@+id/share"
                             android:icon="@android:drawable/ic_menu_share"
                             android:title="share"/>
-                    */menu>
-                */item>
-            */menu>
+                    &lt;/menu>
+                &lt;/item>
+            &lt;/menu>
         </pre>
                 </td>
             </tr>

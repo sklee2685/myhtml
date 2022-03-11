@@ -46,50 +46,61 @@
 <strong><a name="1">1)컴퓨팅적 사고와 문제 해결</a></strong>
 
 1-1) 컴퓨팅적 사고와 문제 해결
-* 컴퓨팅적 사고(Computational Thinking): 컴퓨터(사람이나 기계)가 효과적으로 수행할 수 있도록 문제를 정의하고 그에 대한 답을 기술하는 것이 포함된 사고 과정 일체를 일컫는다.
+* 컴퓨팅적 사고(Computational Thinking): 컴퓨터(사람이나 기계)가 효과적으로 수행할 수 있도록 문제를 정의하고,
+ 그에 대한 답을 기술하는 것이 포함된 사고 과정 일체를 일컫는다.
 
-* 컴퓨터가 효과적으로 수행할 수 있도록 해주는 방법
+<dt>* 컴퓨터가 효과적으로 수행할 수 있도록 해주는 방법</dt>
+<dd>
 1. 자료수집
 2. 자료분석(자료의 이해, 패턴 찾기)
 3. 구조화로 문제를 그래프,차트같은 시각화
 4. 추상화(필요한 요소를 파악후 단순화함)
 5. 자동화(컴퓨팅 시스템이 수행할 수 있는 형태로 해결책을 나타냄)
-5. 일반화로 문제해결과정을 다른 문제에도 적용
+6. 일반화로 문제해결과정을 다른 문제에도 적용
+</dd>
 
 1-2) 알고리즘
-* 알고리즘(Algorithm): 문제를 해결하기 위한 일련의 단계를 절차적으로 표현한 것
+<dt>* 알고리즘(Algorithm): 문제를 해결하기 위한 일련의 단계를 절차적으로 표현한 것</dt>
 ex)
-<img src="screenshot/noname01.png" alt="noname1">
+<dd><img src="screenshot/noname01.png" alt="noname1"></dd>
 
 <strong><a name="2">2) 모바일 프로그래밍관련 설명</a></strong>
-2-1) 안드로이드의 구조
-<img src="screenshot/noname02.png" alt="noname2">
-맨 위에서부터 애플리케이션, 애플리케이션 프레임워크,자바앱을 실행하기 위한 런타임 환경 등 안드로이드 플랫폼의 주요 구성 요소를 보여줌
 
+2-1) 안드로이드의 구조
+<table>
+  <tr>
+    <td><img src="screenshot/noname02.png" alt="noname2"></td>
+    <td>맨 위에서부터 애플리케이션, 애플리케이션 프레임워크,자바앱을 실행하기 위한 런타임 환경 등 안드로이드 플랫폼의 주요 구성 요소를 보여줌</td>
+  </tr>
+</table>
 
 2-2) 애플리케이션 실행 단계
-<img src="screenshot/noname03.png" alt="noname3">
-<a href="https://velog.io/@keepcalm/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98-%EA%B8%B0%EB%B3%B8-%ED%8A%B9%EC%A7%95-%EA%B8%B0%EB%B3%B8-%EA%B5%AC%EC%A1%B0-%EC%8B%A4%ED%96%89%EB%8B%A8%EA%B3%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%8C%A8%ED%82%A4%EC%A7%80-%ED%8F%B4%EB%8D%94">출처</a><--클릭
-1. java로 입력한 소스 코드를 javac가 컴파일해서 class 파일을 만든다. (class 파일은 JVM spec을 따른다.)
+<dt><img src="screenshot/noname03.png" alt="noname3">
+  <a href="https://velog.io/@keepcalm/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98-%EA%B8%B0%EB%B3%B8-%ED%8A%B9%EC%A7%95-%EA%B8%B0%EB%B3%B8-%EA%B5%AC%EC%A1%B0-%EC%8B%A4%ED%96%89%EB%8B%A8%EA%B3%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%8C%A8%ED%82%A4%EC%A7%80-%ED%8F%B4%EB%8D%94">출처</a><--클릭</dt>
+<dd>1. java로 입력한 소스 코드를 javac가 컴파일해서 class 파일을 만든다. (class 파일은 JVM spec을 따른다.)
 2. desugar 작업을 통해 class 파일을 dex화(DVM이 이해할 수 있는 포맷)시켜 .dex파일로 변환한다.
 3. DVM이나 ART이 dex 파일을 실행한다.
-(인터넷에서 퍼옴 출처는 오른쪽에있는 출처클릭)
+(인터넷에서 퍼옴 출처는 오른쪽에있는 출처클릭)</dd>
+
 
 2-3) 컴포넌트
 * 애플리케이션은 컴포넌트로 이뤄지는데 이 컴포넌트는 재사용이 가능한 각각의 독립된 모듈 이다.
-종류)
-1. 액티비티(activity)
+
+<dt>* 종류</dt>
+<dd>1. 액티비티(activity)
 2. 서비스(service)
 3. 방송 수신자(broadcast reciver)
-4. 컨텐트 제공자(content provider)
+4. 컨텐트 제공자(content provider)</dd>
+
 
 2-4) 안드로이드 개발 도구
-* 안드로이드 개발 도구
-1. JDK(Java Development Kit)
+
+<dt>* 안드로이드 개발 도구</dt>
+<dd>1. JDK(Java Development Kit)
   (JRE로는 프로그램을 만들 수 없어 JDK를 사용함)
 2. 안드로이드 스튜디오(android studio)
 3. 안드로이드 SDK(안드로이드 스튜디오 번들 안에 포함되어있음)
-3) 필요한 프로그램 설치 방법
+3) 필요한 프로그램 설치 방법</dd>
 
 <strong><a name="3">3) 필요한 프로그램 설치 방법</a></strong>
 3-1) JDK설치 방법
@@ -189,11 +200,11 @@ ex)
 첫 번째로는 XML을 이용하여 인터페이스 화면을 디자인(ex전자 출결앱 메인화면)을 하고,
 자바 코드를 사용한다.
 
-* 기본 개념
-1. 액티비티(Activity)는 안드로이드에서 애플리 케이션을 구성하는 4가지(남은 3가지는 2-3 참고)의 컴포넌트 중 하나이다.(예를 들면 전화거는 화면을 만들 수 있음)
+<dt>* 기본 개념</dt>
+<dd>1. 액티비티(Activity)는 안드로이드에서 애플리 케이션을 구성하는 4가지(남은 3가지는 2-3 참고)의 컴포넌트 중 하나이다.(예를 들면 전화거는 화면을 만들 수 있음)
 2. @Override: 메소드가 부모 클래스의 메소드를 재정의 한 것
 3. onCreate()메소드: 액티비티가 생성되는 순간 한번만 호출하는 메소드로 모든 초기화 및 인터페이스 설정은 여기에 들어감
-4. setContentView()라는 메소드는 사용자가 꾸민 액티비티의 화면을 설정하는 메소드이다.
+4. setContentView()라는 메소드는 사용자가 꾸민 액티비티의 화면을 설정하는 메소드이다.</dd>
 
 4-2) 비주얼 도구 및 설명
 
@@ -300,10 +311,10 @@ XML의 장점: 애플리케이션의 외관과 애플리케이션의 로직을 �
 
 <strong><a name="6">6) 이벤트 처리</a></strong>
 
-6-1) 이벤트 처리방법
-  1. xml 파일에 이벤트 처리 메소드를 등록(가장 쉬운 방법)
-  2. 이벤트 처리 객체(Listener)를 생성하여 컴포넌트에 등록(일반적인 방법)
-  3. 뷰 클래스의 이벤트 처리 메소드를 재정의(게임 만들 때 사용)
+<dt>6-1) 이벤트 처리방법</dt>
+<dd>1. xml 파일에 이벤트 처리 메소드를 등록(가장 쉬운 방법)
+2. 이벤트 처리 객체(Listener)를 생성하여 컴포넌트에 등록(일반적인 방법)
+3. 뷰 클래스의 이벤트 처리 메소드를 재정의(게임 만들 때 사용)</dd>
 
 6-2) XML사용
 이벤트 처리 코드
@@ -319,10 +330,10 @@ LENGTH_LONG로 바꿀수 있고 각각 2초,5초의 딜레이를 준다.</td>
 </table>
 
 6-3) Listener 사용
-사용방법
-  1. 리스너 클래스를 내부 클래스로 정의
-  2. 리스너 클래스를 무명 클래스로 정의( 가장 많이 사용함)
-  3. 리스너 인터페이스를 액티비티 클래스에 구현
+<dt>사용방법</dt>
+<dd>1. 리스너 클래스를 내부 클래스로 정의
+2. 리스너 클래스를 무명 클래스로 정의( 가장 많이 사용함)
+3. 리스너 인터페이스를 액티비티 클래스에 구현</dd>
 
 *무명 클래스 정의
 <table border="1">
@@ -429,7 +440,7 @@ ex) paint.setColor(Color.BLUE); == paint.setColor(Color.0x0000FF);
 기본적으로 안드로이드 스튜디오에 있는 폰트(DEFAULT,MONSPACE등)를 사용하면 되지만,
 마음에 들지 않을 경우 외부에서 파일을 구해서 사용도 가능하다.
 
-2-3) 이미지 표시
+8-3) 이미지 표시
 
 <table border="1">
   <tr>
@@ -443,4 +454,3 @@ activiy_main.xml에서 ImageView를 사용하면된다.</td>
     <td>MainActiviy 에서는 옆에 사진에있는 코드처럼 캔버스 함수를 사용해서 나타낼 수 있다.</td>
   </tr>
 </table>
-</pre>

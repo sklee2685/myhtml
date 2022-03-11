@@ -358,10 +358,6 @@ button.setOnClickListener(buttonListener);</td>
   </tr>
 </table>
 
-
-
-
-
 <strong><a name="7">7) 사용자 메뉴</a></strong>
 
 7-1) 메뉴의 종류
@@ -389,10 +385,7 @@ button.setOnClickListener(buttonListener);</td>
   </tr>
 </table>
 
-
-
-
-8-2) xml로 정의하기
+7-2) xml로 정의하기
 
 <table border="1">
   <tr>
@@ -409,8 +402,6 @@ button.setOnClickListener(buttonListener);</td>
     <td><img src="screenshot/noname27.png" alt="noname27"></td>
   </tr>
 </table>
-
-
 
 <strong><a name="8">8) 캔버스</a></strong>
 
@@ -454,3 +445,4 @@ activiy_main.xml에서 ImageView를 사용하면된다.</td>
     <td>MainActiviy 에서는 옆에 사진에있는 코드처럼 캔버스 함수를 사용해서 나타낼 수 있다.</td>
   </tr>
 </table>
+</pre>

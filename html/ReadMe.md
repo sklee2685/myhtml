@@ -16,7 +16,7 @@ Git : git의 기본 사용법 및 사용중 발생했던 오류, 해결방안을
 https://sklee2685.tistory.com/
 지금 까지 배운 내용 정리해둔 싸이트
 
-HTML마크업검사기 URL : http://validator.kldp.org/
+HTML마크업검사기 URL : http://validator.kldp.org/ <br>
 CSS스타일검사기 URL : http://css-validator.kldp.org/
 
 # html 문법 정리

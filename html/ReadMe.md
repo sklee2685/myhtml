@@ -1,4 +1,5 @@
 css 파일: css연습및 메인홈페이지에 관련코딩이 있음
+css/table파일: css를 사용해 table을 꾸미는 작업까지 연습한 코딩이 있음
 
 php 파일: 메인 홈페이지를 php파일로 변환함
 
@@ -14,6 +15,9 @@ Git : git의 기본 사용법 및 사용중 발생했던 오류, 해결방안을
 
 https://sklee2685.tistory.com/
 지금 까지 배운 내용 정리해둔 싸이트
+
+HTML마크업검사기 URL : http://validator.kldp.org/
+CSS스타일검사기 URL : http://css-validator.kldp.org/
 
 # html 문법 정리
 > `<strong></strong>`

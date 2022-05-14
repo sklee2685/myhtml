@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>animation 속성</title>
+
+    <style>
+        img{ 
+            display: block; margin-bottom: 20px;
+
+            position: relative;
+
+            /* @keyframes 애니메이션의 이름을 지정 */
+            animation-name: move1;
+            animation-duration: 1s;
+
+            /* 새로고침 필요X 무한 반복 */
+            /* animation-iteration-count: infinite; */
+            
+        }
+        /* 애니메이션이 한 주기를 완료하는데 걸리는 시간을 정의 */
+        img:nth-child(1){
+            animation-direction: normal;
+        }
+        img:nth-child(2){
+            animation-direction: reverse;
+        }
+        img:nth-child(3){
+            animation-direction: alternate;
+        }
+        img:nth-child(4){
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes move1{
+            /* 애니메이션 시작점 */
+            from{left: 0; transform: rotate(0deg);}
+            
+            /* 애니메이션 끝점 */
+            to{left: 500px; transform: rotate(360deg);}
+        }
+        
+    </style>
+</head>
+
+<body>
+    <img src="ball.png" alt="공1">
+    <img src="ball.png" alt="공2">
+    <img src="ball.png" alt="공3">
+    <img src="ball.png" alt="공4">
+</body>
+
+</html>

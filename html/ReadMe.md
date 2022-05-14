@@ -2,6 +2,8 @@ css 파일: css연습및 메인홈페이지에 관련코딩이 있음
 
 css/table파일: css를 사용해 table을 꾸미는 작업까지 연습한 코딩이 있음
 
+css/animation :@keyframes을 사용해 애니메이션 효과를 적용시켜본 코딩이 있음
+
 php 파일: 메인 홈페이지를 php파일로 변환함
 
 phpjs 파일: php언어와 javascript언어가 웹상에서 어떤 코드 차이가 있는지 비교함

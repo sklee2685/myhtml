@@ -8,6 +8,8 @@ php 파일: 메인 홈페이지를 php파일로 변환함
 
 phpjs 파일: php언어와 javascript언어가 웹상에서 어떤 코드 차이가 있는지 비교함
 
+React class: 리액트 공부하면서 실습한 파일이 있습니다.
+
 screenshot 파일: 메인 홈페이에서 사용된 사진의 모음집
 
 script_btn.js : 다크모드 전환 코드

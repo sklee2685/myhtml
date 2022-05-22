@@ -23,7 +23,7 @@ function App() {
       </div>
       <h6>리액트 장점: 리액트에서 데이터 바인딩이 쉽다.</h6>
       <h6>데이터 바인딩: 서버에서 가져온 데이터를 html에 사용</h6>
-      <h6>ex: document.getElementById().innerHTML</h6>
+      <h6>ex&#41; document.getElementById().innerHTML</h6>
       <h6>하지만 리액트에선 &#123; 변수명 &#125; 이렇게 함으로써 데이터 바인딩을 할 수 있음</h6>
 
       <div className="list">

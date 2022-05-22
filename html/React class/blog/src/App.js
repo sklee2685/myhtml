@@ -1,4 +1,4 @@
-/* eslint-disable */
+/* eslint-disable */ /*오류경고문 제거*/
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -46,8 +46,8 @@ function App() {
 
       <div className="list">
         <h3>{ct1} <span onClick= {()=>{ ct2("아직까지 공부중입니다.")}}>✔</span>
-        <span onClick= {()=>{ ct2("리액트 공부4")}}>✖</span></h3>
-        <p>✔를 클릭하면 "리액트 공부"가 "아직까지 공부중입니다." 로 변하고,
+        <span onClick= {()=>{ ct2(t[3]) }}>✖</span></h3>
+        <p>✔를 클릭하면 "리액트 공부4"가 "아직까지 공부중입니다." 로 변하고,
         ✖를 클릭하면 원상 복구됩니다.
         </p>
         <p>5/21</p>

@@ -6,9 +6,15 @@ import './App.css';
 function App() {
 
   let title='리액트 공부1';
-  let [t,b] = useState(['리액트 공부1','리액트 공부2','리액트 공부3','리액트 공부4']);
+  let [t,b] = useState(['리액트 공부1','리액트 공부2','리액트 공부3','리액트 공부4','리액트 공부5']);
   let [num1,num2]= useState(0);
   let [ct1,ct2] = useState(t[3])
+
+  function change_title(){
+    var new_title=[...t];
+    new_title[4]="array변수 복사";
+    b(new_title);
+  }
 
   return (
     <div className="App">
@@ -37,8 +43,8 @@ function App() {
       </div>
 
       <div className="list">
-        <h3>{t[2]} <span onClick= {()=>{ num2(num1+1) }}>👍</span>
-         <span onClick={()=>{num2(num1-1)}}>👎</span> {num1} </h3>
+        <h3>{t[2]} <span onClick= {()=>{ num2(num1+1) }}> 👍</span>
+         <span onClick={()=>{num2(num1-1)}}> 👎</span> {num1} </h3>
         <p>👍를 누르면 옆에 있는 숫자가 올라가고 👎를 누르면 내려감</p>
         <p>5/21</p>
         <hr/>
@@ -51,6 +57,23 @@ function App() {
         ✖를 클릭하면 원상 복구됩니다.
         </p>
         <p>5/22(수정)</p>
+        <hr/>
+      </div>
+
+      <div className="list">
+        <h3>{t[4]}</h3>
+        <button onClick={change_title}>버튼</button>
+        <p>function 함수를 사용해 버튼을 클릭시 "리액트 공부5"가 "array변수 복사"로 변경됩니다.
+          Array,Object state 데이터를 수정하때 해당 파일을 직접 수정하지 말고 파일을 복사 해서 사용해야함
+          <br/>
+          ex&#41;<br/>
+          var data2 = data1; (X)<br/>
+          var data2 = [...data1]; (O)<br/>
+          <br/>
+          첫번째 처럼 파일을 복사할경우 해당 변수의 값만 복사가 된다.=(변수 값 공유)<br/>
+          하지만 두번째 코드처럼 복사하는 경우 deep copy를 해줘서 복사하려는 파일 자체가 복사가 됨
+        </p>
+        <p>5/22</p>
         <hr/>
       </div>
 

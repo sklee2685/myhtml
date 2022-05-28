@@ -77,8 +77,28 @@ function App() {
         <hr/>
       </div>
 
+      <div className="modal">
+        <h2>modal1</h2>
+        <p>Component문법: HTML을 <strong>한 단어로 줄여서</strong> 사용할 수 있음<br/>
+        사용법: 원하는 함수를 만들고 거기안에 축약을 원하는 HTML을 담으면 Component을 만들수 있다.<br/>
+        유의사항 1.이름은 대괄호 2. return()안에 있는건 태그 하나로 묶어야함</p>
+        <p>5/28</p>
+        <hr/>
+      </div>
+
+      <Modal></Modal>
     </div>
   );
 }
 
+function Modal(){
+  return(
+    <div className="modal">
+        <h2>modal2</h2>
+        <p>해당 글은 Component을 사용해 만든 글 입니다.</p>
+        <p>5/28</p>
+        <hr/>
+      </div>
+  )
+}
 export default App;

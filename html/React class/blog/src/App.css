@@ -5,8 +5,13 @@
 body{
   font-family:'nanumsquare';
 }
-
-.black-nav{
+.modal{/*modal ul 디자인*/
+  margin-top:20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
+}
+.black-nav{ /*홈페이지 맨위 디자인*/
   background: black;
   width: 100%;
   display:flex;
